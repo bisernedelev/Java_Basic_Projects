@@ -42,6 +42,10 @@ public class CreateAndOpen {
                 PrintWriter writer1 = new PrintWriter(file);
                 writer1.println("Write Here");
                 runNotePad(consolePath);
+                /* writer1.println("Second line");
+		     writer1.println("Third line");
+		     writer1.println("Fourth line");
+		    System.out.println("Created");*/
                 writer1.close();
 
             } catch (IOException e) {
