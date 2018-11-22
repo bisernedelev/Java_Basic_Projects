@@ -21,7 +21,7 @@ public class FIleProgramMain {
 		   ex.createAndOpen();
 		   ReadAndSplit ex2 = new ReadAndSplit();
 		   ex2.readAndSplit(ex);
-		  //!
+		  //!!
     }
     
 }
