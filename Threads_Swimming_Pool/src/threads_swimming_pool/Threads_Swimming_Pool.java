@@ -42,7 +42,7 @@ public class Threads_Swimming_Pool {
                 } catch (InterruptedException e) {
                 }
             }
-
+//condition
         }
     }
 
