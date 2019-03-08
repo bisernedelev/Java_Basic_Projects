@@ -12,7 +12,6 @@ package contracts;
 public class DALException extends Exception {
 
     public String DALException() {
-
         return "DAL";
     }
 }
