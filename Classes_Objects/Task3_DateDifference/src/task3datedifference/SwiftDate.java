@@ -16,7 +16,6 @@ public class SwiftDate {
     int day;
 
     SwiftDate(int newYear, int newMonth, int newDay) {
-
         year = newYear;
         if (newYear < 0 || newYear > 3000) {
             System.out.println("Error , please enter a valid year(0-3000)"
