@@ -12,8 +12,7 @@ public enum EducationDegree {
     private EducationDegree(int value){
         this.value = value;
     }
-    
-    public int getValue(){
+     public int getValue(){
         return value;
     }
 }
