@@ -52,8 +52,7 @@ public abstract class Education {
     public String getInstitutionName() {
         return institutionName;
     }
-
-    void gotGraduated() {
+     void gotGraduated() {
         if (graduationDate.isAfter(LocalDate.now())) {
             throw new IllegalArgumentException("Graduation date is expected to be a date in the past.");
         }
