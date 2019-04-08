@@ -22,5 +22,4 @@ public class SocialInsuranceRecord {
     public int getYear() {
         return _year;
     }
-    
-}
+  }
