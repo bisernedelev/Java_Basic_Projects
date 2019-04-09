@@ -10,9 +10,6 @@ class Philosopher extends Thread{
 		this.fork=fork;
 		this.out=out;
 	}
-	
-	
-	
 	public void run(){
 		
 			fork.take(this);
