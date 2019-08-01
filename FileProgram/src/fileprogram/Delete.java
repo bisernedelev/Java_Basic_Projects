@@ -12,6 +12,7 @@ import java.io.IOException;
  *
  * @author biserPC
  */
+
 public class Delete {
     public void resetConsole() throws IOException{
 			
