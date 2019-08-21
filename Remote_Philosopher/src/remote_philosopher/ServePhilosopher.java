@@ -14,8 +14,7 @@ public class ServePhilosopher extends Thread {
 	 private Fork fk;
 	 private String name="";
 	
-	 
-	 public ServePhilosopher(Socket s ,Fork fk) throws IOException{
+ public ServePhilosopher(Socket s ,Fork fk) throws IOException{
 		 socket =s;
 		 in = new BufferedReader(
 	                new InputStreamReader(
