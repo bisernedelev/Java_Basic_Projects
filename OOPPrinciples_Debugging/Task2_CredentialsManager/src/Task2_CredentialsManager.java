@@ -16,6 +16,7 @@ public class Task2_CredentialsManager {
 
         Scanner sc = new Scanner(System.in);
 
+        
         String command;
         String username;
         String password;
