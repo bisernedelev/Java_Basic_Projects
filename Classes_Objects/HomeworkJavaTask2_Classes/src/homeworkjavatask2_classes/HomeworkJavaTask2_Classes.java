@@ -11,6 +11,7 @@ package homeworkjavatask2_classes;
  */
 public class HomeworkJavaTask2_Classes {
 
+    
     /**
      * @param args the command line arguments
      */
